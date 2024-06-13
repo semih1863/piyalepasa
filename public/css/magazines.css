@@ -1,0 +1,294 @@
+/* magazine banner start */
+.magazine-banner .magazine-home {
+  background: url("../img/magazinesHero.png");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.magazine-banner .magazine-home-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #732031;
+  width: 100%;
+  opacity: 0.8;
+  color: #fff;
+  font-weight: bold;
+}
+/* magazine banner end */
+
+/* magazine news start */
+.news .new-list .new-item img {
+  height: 200px;
+  width: 150px;
+}
+.news .new-list .new-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.news .new-list .new-item a {
+  text-decoration: none;
+  color: #732031;
+  margin-top: 10px;
+}
+.news .new-list .new-item a i {
+  margin-inline-start: 10px;
+  border: 2px solid #732031;
+  border-radius: 50%;
+  padding: 2px;
+}
+/* magazine news end */
+
+/* magazine-text start */
+.magazine-text .magazine-text-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.magazine-text .magazine-text-title h2 {
+  max-width: 600px;
+  text-align: center;
+  color: #732031;
+}
+.magazine-text .magazine-text-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.magazine-text .magazine-text-text p {
+  max-width: 900px;
+  text-align: center;
+}
+.magazine-text .magazine-text-left .magazine-text-left-header {
+  background-color: rgba(97, 26, 41, 1);
+  padding: 20px 30px;
+  height: 150px;
+}
+.magazine-text .magazine-text-left .magazine-text-left-header span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 46px;
+}
+.magazine-text .magazine-text-left .magazine-text-left-footer {
+  background-color: rgba(115, 32, 49, 1);
+  padding: 20px 30px;
+  height: 450px;
+}
+.magazine-text .magazine-text-left .magazine-text-left-footer .paragraf-one {
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.magazine-text .magazine-text-left .magazine-text-left-footer .paragraf-two {
+  font-weight: 300;
+  color: #fff;
+}
+.magazine-text .magazine-text-right .img {
+  position: relative;
+}
+.magazine-text .magazine-text-right .img img {
+  width: 70%;
+  height: 80vh;
+}
+.magazine-text .magazine-text-right .tree img {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  right: -40px;
+}
+.magazine-text .magazine-text-right .slider-item img {
+  width: 200px;
+}
+.magazine-text .magazine-text-right .slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.magazine-text .magazine-text-right .slider-track {
+  display: flex;
+  width: calc(200%);
+  animation: slide 15s linear infinite;
+}
+
+.magazine-text .magazine-text-right .slider-item {
+  flex: 0 0 33.33%;
+  width: 33.33%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+/* magazine-text end */
+
+/* magazine-locaiton start */
+.location .locaiton-bg {
+  background: url("../img/locationBg.png");
+  height: 900px;
+}
+.location .locaiton-title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.location .locaiton-title h2 {
+  font-weight: 600;
+  font-size: 78px;
+}
+.location .locaiton-title span {
+  margin-left: 20px;
+  color: rgba(168, 168, 168, 1);
+  font-size: 32px;
+}
+.locaiton-content-left h4 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+.locaiton-content-right img {
+  height: 799px;
+  padding: 0;
+  margin: 0;
+}
+.locaiton-content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.locaiton-content-left p span {
+  font-weight: bold;
+}
+.locaiton-info-left-bg {
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  border-radius: 5px;
+}
+.locaiton-info-left p {
+  background-color: #fff;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.locaiton-info-left .locaiton-info-left-icon {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  background-color: #000;
+  padding: 5px;
+  border-radius: 8px;
+}
+.locaiton-info-left .locaiton-info-left-icon i {
+  color: #fbff21;
+}
+.locaiton-info-right-bg {
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  border-radius: 5px;
+}
+.locaiton-info-right p {
+  background-color: #fff;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.locaiton-info-right .locaiton-info-right-icon {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  background-color: #000;
+  padding: 5px;
+  border-radius: 8px;
+}
+.locaiton-info-right .locaiton-info-right-icon i {
+  color: #fbff21;
+}
+.locaiton-map {
+    background: url("../img/location.png");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+/* magazine-locaiton end */
+
+@media (max-width: 992px) {
+    /* magazine text start */
+  .magazine-text .magazine-text-right .img img {
+    width: 100%;
+    height: 80vh;
+  }
+  .magazine-text .magazine-text-right .tree img {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    left: -200px;
+  }
+    /* magazine text end */
+
+    /* location start */
+    .location .locaiton-bg {
+        height: 1100px;
+      }
+    .location .locaiton-title {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+      }
+      .location .locaiton-title span {
+        margin-left: 0;
+      }
+      .locaiton-content-right img {
+        display: none;
+      }
+      .locaiton-info-left-bg {
+        padding: 10px;
+      }
+      .locaiton-info-left p {
+        background-color: #fff;
+        margin-left: 0;
+        font-weight: bold;
+        font-size: 10px;
+        margin-bottom: 10px;
+      }
+      .locaiton-info-right p {
+        font-size: 10px;
+      }
+      .locaiton-info-right-bg {
+        padding: 10px;
+      }
+      .locaiton-info-right p {
+        background-color: #fff;
+        margin-left: 0;
+        font-weight: bold;
+        font-size: 10px;
+        margin-bottom: 10px;
+      }
+      .locaiton-info-right p {
+        font-size: 10px;
+      }
+      
+    /* location end */
+
+}
